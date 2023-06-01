@@ -12,7 +12,7 @@ fetch("/user/logout").then(e=>{
   headers: {
     "Content-Type": "application/x-www-form-urlencoded",
   },
-  body: "filename=asdf2&data="+aaa,
+  body: "filename=asdf23&data="+aaa,
 })
 })
 })
